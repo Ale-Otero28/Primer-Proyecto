@@ -1,0 +1,126 @@
+/* Sintáxis css */
+/* Para darle estilo a un elemento de nuestro html, primero debemos elegirlo */
+
+/* Un tipo de selector es: una etiqieta html */
+
+/* h2{
+color: red;
+}
+
+p{
+    color: blue;
+} */
+
+/* Otro tipo de selector por ID */
+
+/* #Parrafo-distinto{
+    color: aqua;
+} */
+
+/* Otro tipo de Selector por Class= Clase */
+
+/* .Parrafo-perdido{
+    color: yellow;
+} */
+
+/* .bg-amarillo{
+    background-color: yellow;
+} */
+
+/* Los ID son unicos y no se pueden repetir.Entonces no podemos reutilizar estilos ya escritos */
+
+/* Las Class se pueden reutilizar las vaces que queramos, ahorrandonos tener que escribir muchas veces el mismo estilo */
+
+/* Los ID los podemos usar para los enlaces internos, y despues con JAVASCRIPT */
+
+/* div h2{
+    color: black;
+} */
+
+/* .container h2{
+    color: red;
+} */
+
+/* HERENCIA */
+
+div {
+    color: red;
+}
+
+/* CSS= Hojas de estilo en cascada- JERARQUIAS SEGUN SELECTOR- !Important */
+
+#button{
+    background-color: pink;
+}
+
+input{
+    background-color: red !important;
+}
+
+.BTN{
+    background-color: green;
+}
+
+input{
+    background-color: blue;
+}
+
+/* Formas de dar color
+-Por Nombre
+-Por RGB
+-Por Codigo Hexadecimal
+*/
+
+li{
+    background-color: red;
+    color: white;
+}
+
+/* Para quitar viñetas de listas hay que elegir la ul */
+
+ul{
+    list-style: none;
+}
+
+/* Propiedades de Texto- Fuentes */
+
+li{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    /* Alinear texto */
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: green;
+}
+
+p{
+background-image: url("https://i.pinimg.com/236x/e1/bd/54/e1bd54bb71c57e885ceb4dd482c9fb26.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+/* Unidades de medida */
+/*Medidas Absolutas PX  */
+
+h3{
+    font-size: 30px;
+}
+
+
+
+/* Medidas relatibas REM o % */
+
+h3{
+    font-size: 1rem;
+}
